@@ -936,7 +936,7 @@ video {
 :root {
     --c-black: #191b1d;
     --c-black-rgb: 25, 27, 29;
-    --c-gray: #cdcecf;
+    --c-gray: #eeb702;
     --c-gray-rgb: 205, 206, 207;
     --c-white: #fff;
     --c-white-rgb: 255, 255, 255;
@@ -1023,8 +1023,8 @@ video {
     --t-text-rgb: var(--c-white-rgb);
     --t-small: var(--c-white-40);
     --t-small-rgb: var(--c-white-40-rgb);
-    --t-breadcrumbs: var(--c-gray);
-    --t-breadcrumbs-rgb: var(--c-gray-rgb);
+    --t-breadcrumbs: var(--c-white);
+    --t-breadcrumbs-rgb: var(--c-white);
     --t-primary: var(--c-white);
     --t-primary-rgb: var(--c-white-rgb);
     --t-button-primary-bg: var(--c-white-15);
@@ -1891,7 +1891,7 @@ samp {
 code,
 pre {
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 0px;
     background: #000;
     color: #fff;
     font-size: calc(var(--scale-rem) * 1.2);
@@ -2502,7 +2502,7 @@ input:focus-visible+.btn:is(label) {
 .btn,
 .btn:after,
 .btn:before {
-    border-radius: calc(var(--scale-px) * 60)
+    border-radius: 0px
 }
 
 .btn>.btn__content {
